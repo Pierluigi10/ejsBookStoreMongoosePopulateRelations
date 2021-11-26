@@ -2,12 +2,15 @@ import express from "express";
 import path from "path";
 import mongoose from "mongoose";
 import * as BooksController from "./controllers/books.js";
+import dotenv from "dotenv";
 
-mongoose.connect("mongodb://localhost:27017/bookstore");
+dotenv.config();
+
+mongoose.connect(process.env.MONGO_URI);
 
 const app = express();
 const __dirname = path.resolve(path.dirname(""));
-const port = 3047;
+const port = process.env.PORT || 3047;
 const staticDirectory = path.join(__dirname, "./public");
 
 app.set("view engine", "ejs");

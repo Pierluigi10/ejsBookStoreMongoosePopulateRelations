@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
-const personsSchema = mongoose.Schema(
+const personsSchema = Schema(
   {
     firstName: String,
     lastName: String,
