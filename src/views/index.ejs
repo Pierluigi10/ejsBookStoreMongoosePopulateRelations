@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1><%=pageTitle%></h1>
-    <p>There are <%=books.length%></p>
+    <p>We currently have <%=books.length%> books in our collection.</p>
     <% books.forEach(book=> { %>
     <div class="book">
       <a href="<%=book.url%>" target="_blank">
@@ -42,7 +42,7 @@
                 ><%=comment.author.firstName%>
                 <%=comment.author.lastName%></span
               >
-              (<%=comment.datetime.substr(0,10)%>)</span
+              (<%=comment.datetime.substr(0,15)%>)</span
             >
           </li>
           <% })%>
