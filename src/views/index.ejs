@@ -36,7 +36,14 @@
           <% book.comments.forEach(comment=> { %>
           <li>
             <%=comment.message%>
-            <span class="datetime">(<%=comment.datetime%>)</span>
+            <span class="info">
+              -
+              <span class="commentAuthor"
+                ><%=comment.author.firstName%>
+                <%=comment.author.lastName%></span
+              >
+              (<%=comment.datetime.substr(0,10)%>)</span
+            >
           </li>
           <% })%>
         </ul>
