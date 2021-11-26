@@ -45,11 +45,17 @@ body {
       li {
         margin: 0 0 0 -15px;
         font-style: italic;
+        .info {
+          color: #777;
+          .commentAuthor {
+            color: yellow;
+          }
+        }
       }
     }
     div.header {
       margin: 12px 0 -12px -1px;
-	  font-size: 1.2rem;
+      font-size: 1.2rem;
     }
   }
 }
