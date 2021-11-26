@@ -22,8 +22,8 @@
             <%=book.author.firstName%> <%=book.author.lastName%>
           </span>
         </div>
+        <div class="header">People who have bought this book:</div>
         <ul class="customers">
-          <div class="header">People who have bought this book:</div>
           <% book.customers.forEach(customer=> { %>
           <li>
             <%=customer.firstName%> <%=customer.lastName%>
@@ -31,10 +31,13 @@
           </li>
           <% })%>
         </ul>
+        <div class="header">Comments:</div>
         <ul class="comments">
-          <div class="header">People who have bought this book:</div>
           <% book.comments.forEach(comment=> { %>
-          <li><%=comment.message%> <span class="datetime">(<%=comment.datetime%>)</span></li>
+          <li>
+            <%=comment.message%>
+            <span class="datetime">(<%=comment.datetime%>)</span>
+          </li>
           <% })%>
         </ul>
       </div>
