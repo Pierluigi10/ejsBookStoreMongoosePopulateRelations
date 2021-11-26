@@ -1,6 +1,122 @@
 [
-    {
-        "message": "message",
-        "datetime": "2021-11-24 21:00:41"
-    }
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db1"
+    },
+    "message": "Great book, helped me out.",
+    "datetime": {
+      "$date": {
+        "$numberLong": "2323164223697"
+      }
+    },
+    "author": "619eccbfca4e8fe1a0796daf"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db2"
+    },
+    "message": "There was an error on page 13, second line.",
+    "datetime": {
+      "$date": {
+        "$numberLong": "4101230565799"
+      }
+    },
+    "author": "619ece858558d24cf378e679"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db3"
+    },
+    "message": "I will recommend this.",
+    "datetime": {
+      "$date": {
+        "$numberLong": "3411481182561"
+      }
+    },
+    "author": "619ece858558d24cf378e679"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db4"
+    },
+    "message": "When will your next book be out?",
+    "datetime": {
+      "$date": {
+        "$numberLong": "1904568558577"
+      }
+    },
+    "author": "619ece858558d24cf378e676"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db5"
+    },
+    "message": "The last chapter seemed rushed, but otherwise very helpful.",
+    "datetime": {
+      "$date": {
+        "$numberLong": "862398742131"
+      }
+    },
+    "author": "619ece858558d24cf378e675"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db6"
+    },
+    "message": "I will give this to everyone in my team, thanks.",
+    "datetime": {
+      "$date": {
+        "$numberLong": "1682191822806"
+      }
+    },
+    "author": "619ece858558d24cf378e674"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db7"
+    },
+    "message": "Why did you choose only one SQL database?",
+    "datetime": {
+      "$date": {
+        "$numberLong": "3220839625458"
+      }
+    },
+    "author": "619eccbfca4e8fe1a0796daf"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db8"
+    },
+    "message": "If you could pick an 8th database, what would it be?",
+    "datetime": {
+      "$date": {
+        "$numberLong": "3274934538745"
+      }
+    },
+    "author": "619eccbfca4e8fe1a0796dad"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796db9"
+    },
+    "message": "I made my first chat program with this book, thanks.",
+    "datetime": {
+      "$date": {
+        "$numberLong": "2263738654804"
+      }
+    },
+    "author": "619eccbfca4e8fe1a0796daf"
+  },
+  {
+    "_id": {
+      "$oid": "619fe088ca4e8fe1a0796dba"
+    },
+    "message": "This book helped me make a dashboard that analyzes clients work activity, very useful.",
+    "datetime": {
+      "$date": {
+        "$numberLong": "2991087572093"
+      }
+    },
+    "author": "619eccbfca4e8fe1a0796dad"
+  }
 ]
